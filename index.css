@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.left div {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.mid {
+    margin-top: 12px;
+}
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 12px;
+    color: black;
+    font-weight: 500;
+}
+
+.navbar li a:hover {
+    color: aquamarine;
+}
+
+.left {
+    position: relative;
+    left: 100px;
+    top: 25px;
+}
+
+.right {
+    position: relative;
+    right: 120px;
+    top: 20px;
+}
+
+.right i {
+    padding-left: 20px;
+    border: 2px solid rgb(196, 192, 192);
+    background-color: rgb(196, 192, 192);
+    padding: 10px;
+}
+
+.right i:hover {
+    background-color: orange;
+}
+
+.right div{
+    display: inline-block;
+}
+
+
+.alert{
+    position: relative;
+    top: 50px;
+    width: 18%;
+}
+.alert button{
+    background-color: rgb(39, 39, 231);
+    color: white;
+    padding: 5px;
+}
+.sidebar{
+    position: relative;
+    top: 70px;
+}
+.sidebar ul li{
+    list-style: none;
+    line-height: 40px;
+}
+.sidebar header{
+    position: relative;
+    left: 44px;
+    font-weight: 800;
+}
+.sidebar div{
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    background-color: aqua;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-section {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 20px;
+    height: 100px;
+}
